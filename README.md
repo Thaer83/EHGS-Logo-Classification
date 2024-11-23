@@ -6,7 +6,9 @@ EHGS-Logo-Classification: Optimizing VGG16 for Logo Classification Using Enhance
 This repository contains the code and experiments conducted to enhance logo classification performance using the VGG16 deep learning model. The approach integrates an Enhanced Hunger Games Search (EHGS) algorithm for hyperparameter tuning, aimed at improving the robustness and accuracy of the model. The project is structured in three phases:
 
 ## Phase 1: Benchmark Comparison
-This phase evaluates the performance of the HGS, EHGS, BA, HHO, and SCA algorithms on 30 real-valued benchmark functions from the IEEE CEC2014 suite.
+This phase evaluates the performance of the HGS, EHGS, BA, HHO, and SCA algorithms on 30 real-valued benchmark functions from the IEEE CEC2014 suite. The optimization tasks in this phase are built using the **PyGMO framework**, which provides a unified interface for optimization algorithms and problems, supporting massively parallel environments for computational efficiency.  
+
+For detailed information on setting up the PyGMO environment, please refer to the [PyGMO documentation](https://esa.github.io/pygmo2/install.html).
 
 ## Phase 2: Logo Classification
 In this phase, various deep learning models are explored for logo classification using the Flickr-27 dataset. The models include VGG16 and several state-of-the-art architectures such as ResNet50V2 and MobileNetV2.
