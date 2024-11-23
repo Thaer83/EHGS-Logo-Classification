@@ -11,7 +11,11 @@ This phase evaluates the performance of the HGS, EHGS, BA, HHO, and SCA algorith
 For detailed information on setting up the PyGMO environment, please refer to the [PyGMO documentation](https://esa.github.io/pygmo2/install.html).
 
 ## Phase 2: Logo Classification
-In this phase, various deep-learning models are explored for logo classification using the Flickr-27 dataset. The models include VGG16 and several state-of-the-art architectures such as ResNet50V2 and MobileNetV2. The experiments are conducted in a **Colab environment**, where the necessary libraries are pre-installed, allowing for a seamless and easy setup for running deep learning tasks without the need for local installations.
+In this phase, various deep learning models are explored for logo classification using the **FlickrLogos-27** dataset, which is publicly available for research purposes. The models include VGG16 and several state-of-the-art architectures such as ResNet50V2 and MobileNetV2. The experiments are conducted in a **Colab environment**, where the necessary libraries are pre-installed, allowing for a seamless and easy setup for running deep learning tasks without the need for local installations.
+
+The **FlickrLogos-27** dataset can be downloaded from the following link:  
+[Download FlickrLogos-27](https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/mmc/research/datensatze/flickrlogos/).
+
 
 
 ## Phase 3: EHGS for Hyperparameter Tuning
